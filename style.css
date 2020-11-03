@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+header{
+	height: 100px ;
+	width: 100% ;
+	z-index: 12;
+	position: fixed;
+	background: #000;
+	}
+.logo img{
+	width: auto;
+	height:100px; 
+	float: left;
+	line-height: 100px ;
+	margin-left: 2%;
+}
+.logo a{
+	text-decoration: none;
+	font-size: 30px; 
+	font-family: bignoodletitling ;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+
+nav{
+	float: right;
+	line-height: 100px;
+}
+nav a{
+	text-decoration-style: none ;
+	font-family: bignoodletitling ;
+	letter-spacing: 5px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff ;
+
+}
+.banner-area{
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px ;
+	background-image: url(images.jpg);
+	background-size: cover;
+	background-position: center center; 
+}
+.banner-area h2{
+	padding: 8%;
+	font-size: 70px;
+	font-family: poppins ;
+	text-transform: uppercase;
+	color: #000;
+
+
+}
+.content-area{
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ddd;
+	height: 100%;
+}
+.content-area h2{
+	font-family: bignoodletiyling ;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+	text-align: center;
+}
+
+	.widding{
+		margin: 10px 50px;
+		text-align: center; 
+	
+		
+	}
+	.widding img{
+		transition: 1s;
+		padding: 15px;
+		width: 50%;
+		height: 80% ;
+	}
+	.widding img:hover{
+		filter: grayscale(100%);
+		transform: scale(1.1);
+	}	
+	
+	.kid1{
+		margin: 10px 50px;
+		text-align: center;
+	}
+	.kid1 img{
+		transition: 1s;
+		padding: 15px;
+		width: 50%;
+		height: 80%;
+	}
+	.kid1 img:hover{
+		filter: grayscale(100%);
+		transform: scale(1.1);
+	}	
+	
+	
